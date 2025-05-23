@@ -20,7 +20,6 @@ const __dirname = path.resolve();
 
 app.use(express.json());
 app.use(cookieParser());
-import cors from "cors";
 
 const allowedOrigins = [
   "http://localhost:5173",
